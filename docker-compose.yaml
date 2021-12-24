@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  apiserver:
+    image: himera/nodemon:v1
+    volumes:
+    - ./server:/data
+    ports:
+    - 4000:4000
